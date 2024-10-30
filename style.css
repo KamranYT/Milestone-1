@@ -1,0 +1,79 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #ffd700; /* Gold */
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid #ffd700;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #222;
+}
+
+legend {
+    font-weight: bold;
+    color: #ffd700;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #ccc;
+}
+
+input, textarea {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ffd700;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffd700;
+    color: #111;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ffdf80;
+}
+
+.profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #ffd700;
+    box-shadow: 0 4px 8px rgba(11, 7, 211, 0.5);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
